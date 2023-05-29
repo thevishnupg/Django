@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App1-Index Page</title>
+</head>
+<body>
+
+    <h1>Hello World</h1>
+    <br>
+    <br>
+    <h3><u>Django Strated</u></h3>
+    <p>
+        <ul>
+            <li> Create a folder 'templates'</li>
+            <li>Connect the template folder by edit the setting.py in project </li>
+                <ol>
+                    <li>import os</li>
+                    <li>TEMPLATES_DIR = os.path.join(BASE_DIR,'templates')</li>
+                </ol>
+            <li> Go below and find the TEMPLATE in setting.py </li>
+                <ol>
+                    <li>DIRS': [TEMPLATES_DIR]</li>
+                </ol>
+        </ul>  
+    </p>
+    <br>
+    <br>
+    <br>
+    <h4><u>Django models,adminpanel</u></h4>
+    <p>
+        <li>Create project2, start app called App1, <br>
+        To access admin pannel ,we need to use models in App1,
+        then create two fields 'name' and 'rollno' with appropriate fields.(CharecterFields,IntigerFields)</li> <br>
+        <li>Go to admin.py<br>
+            Then register all fields in models,
+        This will add the fields in admin pannel</li> <br>
+        <li>Go to views.py<br>
+        Now create a function of Students details</li> <br>
+        <li>Create html files in template folder<br>
+        Using for loop we can fetch our datas form admin pannel</li> <br><br>
+        <li>In terminal:-<br>
+            we need to migrate so type'python manage.py makemigration',,,
+            next 'python manage.py migrate'</li> <br>
+        <li>In terminal:- Create username and password<br>
+            Using the command 'createsuperuser'</li> <br>
+
+
+
+    </p>
+</body>
+</html>

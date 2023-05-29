@@ -1,0 +1,22 @@
+.edit{
+    border: 1px solid black;
+    background-color: aqua;
+    text-align: center;
+}
+
+.length{
+    padding-left: 282px;
+    padding-right: 282px;
+    border-radius: 3px;
+    border: 2px solid black;
+    color: black !important;
+    font-size: large;
+    background-color: coral;
+    
+}
+.backcolor{
+    background-color: darkgray;
+}
+.pcolor{
+    color: red;
+}

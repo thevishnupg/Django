@@ -1,0 +1,9 @@
+Authentication Method
+
+
+templates
+    >registration
+        >password_change_form.html
+        >password_change_done.html
+
+password_change_form.html
